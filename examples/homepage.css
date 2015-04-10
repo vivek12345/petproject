@@ -22,7 +22,7 @@ html {
 #home .masthead {
   background-image: url(images/concrete_seamless.png);
   margin: 0em;
-  padding: 3rem 0rem;
+  padding: 0rem 0rem 3rem 0rem;
 }
 #home .masthead .column {
   position: relative;
@@ -159,8 +159,18 @@ html {
   padding:2%;
 }
 
-.card
+.ui.medium.image
 {
- 
+  max-height:169px;
+}
+
+.left.floated.like
+{
+  margin-top:8px;
+}
+
+.ui.header
+{
+  padding:0rem 0.5rem;
 }
 
