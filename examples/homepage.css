@@ -135,8 +135,12 @@ html {
   #home .selection.list .right.floated {
     display: none;
   }
-  
+  .displayClass
+  {
+    right:0rem;
+  }
 }
+
 
 /*my styles*/
 /*increase the size of size box to match with other form fields*/
@@ -174,3 +178,50 @@ html {
   padding:0rem 0.5rem;
 }
 
+
+.examples-list ol {
+  margin-left: 30px;
+}
+
+.examples-list ol li {
+  list-style: decimal;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.example-item ol li {
+  font-size: .875em;
+}
+
+.example-item .slider a {
+  line-height: 1.5em;
+}
+.example-item #bx-pager {
+  text-align: center;
+  margin-top: -30px;
+  display: inline-flex;
+}
+
+.example-item #bx-pager a {
+  margin: 0 3px;
+}
+
+.example-item #bx-pager a img {
+  padding: 3px;
+  border: solid #ccc 1px;
+}
+
+.example-item #bx-pager a:hover img,
+.example-item #bx-pager a.active img {
+  border: solid #5280DD 1px;
+}
+
+
+.bx-wrapper .bx-viewport
+{
+  height:200px;
+}
+.displayClass
+  {
+    right:-4rem;
+  }
